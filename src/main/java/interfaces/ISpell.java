@@ -1,5 +1,7 @@
 package interfaces;
 
+import Enemy.Enemy;
+
 public interface ISpell {
-    public int spell();
+    public void spell(Enemy enemy);
 }

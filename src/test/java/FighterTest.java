@@ -31,7 +31,7 @@ public class FighterTest {
     }
 
     @Test
-    public void canAttacWithClub(){
+    public void canAttackWithClub(){
         barbarian.setWeapon(club);
         barbarian.attackA(orc);
         assertEquals(15, orc.getHealthPoints());

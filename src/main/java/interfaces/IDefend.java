@@ -1,5 +1,7 @@
 package interfaces;
 
+import Enemy.Enemy;
+
 public interface IDefend {
-    public int defend();
+    public void defend(Enemy enemy);
 }
