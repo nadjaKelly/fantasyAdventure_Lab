@@ -15,5 +15,13 @@ public class Cleric extends Player {
     public void heal(Player player){
         heal.heal(player);
     }
+
+    public IHeal getHeal() {
+        return heal;
+    }
+
+    public void setHeal(IHeal heal) {
+        this.heal = heal;
+    }
 }
 
