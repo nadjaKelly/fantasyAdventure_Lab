@@ -3,11 +3,11 @@ package weapons;
 import Enemy.Enemy;
 import interfaces.IWeapon;
 
-public class Sword implements IWeapon {
+public class Club implements IWeapon {
 
     private int damageValue;
 
-    public Sword(int damageValue){
+    public Club(int damageValue){
         this.damageValue = damageValue;
     }
 

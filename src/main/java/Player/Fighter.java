@@ -1,11 +1,12 @@
 package Player;
 
+import Enemy.Enemy;
 import interfaces.IWeapon;
 
 
 
 
-public abstract class Fighter extends Player{
+public  class Fighter extends Player{
 
     private IWeapon weapon;
 
@@ -25,7 +26,7 @@ public abstract class Fighter extends Player{
         this.weapon = weapon;
     }
 
-    public int attack(){
-        return 0;
+    public void attackA(Enemy enemy){
+        weapon.attack(enemy);
     }
 }
