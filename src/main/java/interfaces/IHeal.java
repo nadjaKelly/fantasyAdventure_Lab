@@ -1,5 +1,7 @@
 package interfaces;
 
+import Player.Player;
+
 public interface IHeal {
-    public int heal();
+    public void heal(Player player);
 }

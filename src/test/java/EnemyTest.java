@@ -11,6 +11,7 @@ public class EnemyTest {
     Orc orc;
 
 
+
     @Before
     public void before(){
         sword = new Sword(10);
